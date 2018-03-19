@@ -5,7 +5,7 @@ It contains 3 puzzles, which you need to solve using AR.
 
 ### Getting Started
 
-To open this project you need [Unity](https://unity3d.com) 2017.3.1 with Vuforia and iOS build support included.
+To open this project you need [Unity](https://unity3d.com) 2017.3.0 or up with Vuforia and iOS build support included.
 
 ### Requirements
 iPhone, iPad or iPod with iOS 9 or higher.
@@ -21,7 +21,7 @@ Clone our project
 git clone https://github.com/CSMdevs/EscapeRoom.git
 ```
 
-Open the project with Unity 2017.3.1
+Open the project with Unity 2017.3.0
 ```
 Open Unity > Choose cloned folder
 ```
