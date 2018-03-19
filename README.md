@@ -61,7 +61,7 @@ Sadly we havn't had the time to test this project for android. But be free to tr
 
 * **Cemre Süler** - *Game Developer* - [Twitter](https://twitter.com/Cemre2002Cemre)
 * **Stan Verlaan** - *Game Developer*
-* **Micha den Heijer** - *Game Developer* - [Website](https://Michadenheijer.nl)
+* **Micha den Heijer** - *Game Developer* - [Instagram](https://www.instagram.com/michabeste/)
 
 
 ## License
