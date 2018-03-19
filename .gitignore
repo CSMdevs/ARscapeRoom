@@ -3,11 +3,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/[Uu]nity[Pp]ackage[Mm]anager/
-
 /Assets/AssetStoreTools*
-/Assets/Plugins/GitHub.meta
-/Assets/Plugins/GitHub/
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -27,7 +23,6 @@ ExportedObj/
 *.svd
 *.pdb
 
-
 # Unity3D generated meta files
 *.pidb.meta
 
@@ -37,26 +32,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-ExportedObj/
-*.svd
-*.userprefs
-*.csproj
-*.pidb
-*.suo
-*.sln
-*.user
-*.unityproj
-*.booproj
-
-# ============ #
-# OS generated #
-# ============ #
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
