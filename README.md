@@ -2,7 +2,6 @@
 
 This is our AR-Game made for Herbert Vissers College by CSM-Devs.
 It contains 3 puzzles, which you need to solve using AR.
-It's made to use ARkit on iOS devices using [Vuvoria](https://www.vuforia.com). Not yet tested for any other type of device nor will there be any support for that in the short future.
 
 ### Getting Started
 
@@ -61,8 +60,8 @@ Sadly we havn't had the time to test this project for android. But be free to tr
 ## Authors
 
 * **Cemre Süler** - *Game Developer* - [Twitter](https://twitter.com/Cemre2002Cemre)
-* **Stan Verlaan** - *Game Developer*
-* **Micha den Heijer** - *Game Developer* - [Instagram](https://www.instagram.com/michabeste/)
+* **Stan Verlaan** - *Game Developer* - [Instagram](https://www.instagram.com/stanverlaan/)
+* **Micha den Heijer** - *Game Developer* - [Website](https://Michadenheijer.nl)
 
 
 ## License
