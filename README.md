@@ -14,8 +14,13 @@ Unity with build support for iOS and Vuforia
 
 ### How to install on iDevice
 
-Follow this tutorial to install this game on your iDevice
+Follow this tutorial to install this game on your iDevice.
 
+There are two ways to build the game for your iDevice. 
+* Clone the project and build from there
+* Download our build and build with Xcode
+
+#### Clone the project
 Clone our project
 ```
 git clone https://github.com/CSMdevs/EscapeRoom.git
@@ -31,6 +36,15 @@ Build for iOS
 Click build settings > iOS > Build
 ```
 
+Continue with  Xcode
+
+#### Use our build
+
+Download our build at the [releases](https://github.com/CSMdevs/ARscapeRoom/releases) page.
+
+Unzip the file and continue with Xcode
+
+#### Continue with Xcode
 Open the Xcodeproject with xCode
 ```
 Doubleclick the Xcodeproject in the build folder
