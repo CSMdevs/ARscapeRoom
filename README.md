@@ -5,7 +5,7 @@ It contains 3 puzzles, which you need to solve using AR.
 
 ### Getting Started
 
-To open this project you need [Unity](https://unity3d.com) 2017.3.0 or up with Vuforia and iOS build support included.
+To open this project you need [Unity](https://unity3d.com) 2017.3.0 or up with Vuforia and iOS build support included. If you want to try you can try to build for Android or Windows Phone, but we cannot guarantee it to be working.
 
 ### Requirements
 iPhone, iPad or iPod with iOS 9 or higher.
