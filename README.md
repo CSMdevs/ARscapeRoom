@@ -45,14 +45,16 @@ You are now ready to install the app to your iDevice
 ```
 Plug in your device to your computer and click on the "play" icon to install the app
 ```
+### Install on Android device
 
+Sadly we havn't had the time to test this project for android. But be free to try it yourself.
 
 
 ## Built With
 
 * [Unity](https://unity3d.com/) -  The game engine
 * [Vuforia](https://www.vuforia.com) - The AR support
-* [Xcode](https://developer.apple.com/xcode/) - Used to build the app
+* [Xcode](https://developer.apple.com/xcode/) - Used to build the app *iOS only*
 
 
 ## Authors
@@ -64,7 +66,7 @@ Plug in your device to your computer and click on the "play" icon to install the
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
