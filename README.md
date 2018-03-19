@@ -41,8 +41,15 @@ Continue with  Xcode
 #### Use our build
 
 Download our build at the [releases](https://github.com/CSMdevs/ARscapeRoom/releases) page.
+```
+Download the file > Open the download
+```
 
-Unzip the file and continue with Xcode
+Unzip the file
+```
+Go to the downloaded file > unzip 
+```
+Continue with Xcode
 
 #### Continue with Xcode
 Open the Xcodeproject with xCode
