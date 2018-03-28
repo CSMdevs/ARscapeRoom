@@ -1,27 +1,10 @@
-# ARscapeRoom
-
-This is our AR-Game made for Herbert Vissers College by CSM-Devs.
-It contains 3 puzzles, which you need to solve using AR.
-
-### Getting Started
-
-To open this project you need [Unity](https://unity3d.com) 2017.3.0 or up with Vuforia and iOS build support included. If you want to try you can try to build for Android or Windows Phone, but we cannot guarantee it to be working.
-
-### Requirements
-iPhone, iPad or iPod with iOS 9 or higher.
-MacOS with Xcode 9
-Unity with build support for iOS and Vuforia
-
-### How to install on iDevice
-
-Follow this tutorial to install this game on your iDevice.
-
-There are two ways to build the game for your iDevice. 
-* Clone the project and build from there
-* Download our build and build with Xcode
+##### Open the project with Unity 2017.3.0<br/>
+```
+Open Unity > Choose cloned folder
+```
 
 #### Clone the project
-Clone our project
+
 ```
 git clone https://github.com/CSMdevs/EscapeRoom.git
 ```
@@ -95,3 +78,4 @@ This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE
 
 ## Copyright problems
 This is a project we have been working for a few months and we have not checked for any copyright issues. We're trying to remove everything we expect to not be ours, or isn't given credits to. If you want to have anything of yours be removed we'll do.
+
