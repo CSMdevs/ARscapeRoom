@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class DarkUI : MonoBehaviour {
-	public Image img;
-	public Color altColorW = new Color32 (235, 235, 235, 160);
-	public Color OrigColor;
+public class DarkText : MonoBehaviour {
+	public Text tekst;
+	public Color altColor = new Color32 (242, 242, 242, 240);
+	public Color OriginColor;
 	// Use this for initialization
 	void Start () {
-		img = GetComponent<Image> ();
-		OrigColor = img.color;
+		tekst = GetComponent<Text> ();
+		OriginColor = tekst.color;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (PlayerPrefs.GetInt ("DarkMode") == 0) {
-			img.color = altColorW;
+			tekst.color = altColor;
 		} else {
-			img.color = OrigColor;
+			tekst.color = OriginColor;
 		}
 	}
 }
