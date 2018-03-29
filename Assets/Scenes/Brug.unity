@@ -305,6 +305,7 @@ GameObject:
   - component: {fileID: 181281954}
   - component: {fileID: 181281953}
   - component: {fileID: 181281952}
+  - component: {fileID: 181281957}
   m_Layer: 0
   m_Name: Laag0Links
   m_TagString: Untagged
@@ -393,6 +394,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181281957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181281951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &237477606
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,6 +418,7 @@ GameObject:
   - component: {fileID: 237477610}
   - component: {fileID: 237477609}
   - component: {fileID: 237477608}
+  - component: {fileID: 237477611}
   m_Layer: 0
   m_Name: Deel2
   m_TagString: Untagged
@@ -477,6 +492,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 237477606}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &237477611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237477606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &266624571
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +723,7 @@ GameObject:
   - component: {fileID: 331280907}
   - component: {fileID: 331280906}
   - component: {fileID: 331280905}
+  - component: {fileID: 331280910}
   m_Layer: 0
   m_Name: Laag0Rechts
   m_TagString: Untagged
@@ -783,6 +812,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331280910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331280904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &374011075
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +933,7 @@ GameObject:
   - component: {fileID: 559913602}
   - component: {fileID: 559913601}
   - component: {fileID: 559913600}
+  - component: {fileID: 559913605}
   m_Layer: 0
   m_Name: Laag5Links
   m_TagString: Untagged
@@ -979,6 +1022,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &559913605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559913599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &597218281
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +1046,7 @@ GameObject:
   - component: {fileID: 597218285}
   - component: {fileID: 597218284}
   - component: {fileID: 597218283}
+  - component: {fileID: 597218286}
   m_Layer: 0
   m_Name: Deel2
   m_TagString: Untagged
@@ -1063,6 +1120,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 597218281}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &597218286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597218281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &647930860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &678302334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2082,6 +2152,7 @@ GameObject:
   - component: {fileID: 849381723}
   - component: {fileID: 849381722}
   - component: {fileID: 849381721}
+  - component: {fileID: 849381726}
   m_Layer: 0
   m_Name: Laag2Links
   m_TagString: Untagged
@@ -2170,6 +2241,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849381726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849381720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &893613504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2387,7 @@ GameObject:
   - component: {fileID: 921269121}
   - component: {fileID: 921269120}
   - component: {fileID: 921269119}
+  - component: {fileID: 921269122}
   m_Layer: 0
   m_Name: Deel3
   m_TagString: Untagged
@@ -2337,7 +2422,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8598f7a26b28844048343ee7ef66c228, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2376,6 +2461,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 921269117}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &921269122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 921269117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &934205378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,6 +2559,7 @@ GameObject:
   - component: {fileID: 950131361}
   - component: {fileID: 950131360}
   - component: {fileID: 950131359}
+  - component: {fileID: 950131362}
   m_Layer: 0
   m_Name: Deel1
   m_TagString: Untagged
@@ -2534,6 +2633,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 950131357}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &950131362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950131357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1063510680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,6 +2752,7 @@ GameObject:
   - component: {fileID: 1129100921}
   - component: {fileID: 1129100920}
   - component: {fileID: 1129100919}
+  - component: {fileID: 1129100924}
   m_Layer: 0
   m_Name: Laag5Rechts
   m_TagString: Untagged
@@ -2728,6 +2841,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1129100924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1129100918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1162898512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2740,6 +2866,7 @@ GameObject:
   - component: {fileID: 1162898515}
   - component: {fileID: 1162898514}
   - component: {fileID: 1162898513}
+  - component: {fileID: 1162898518}
   m_Layer: 0
   m_Name: Laag6
   m_TagString: Untagged
@@ -2828,6 +2955,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1162898518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162898512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1184003808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,6 +3074,7 @@ GameObject:
   - component: {fileID: 1234110912}
   - component: {fileID: 1234110911}
   - component: {fileID: 1234110910}
+  - component: {fileID: 1234110915}
   m_Layer: 0
   m_Name: Laag1
   m_TagString: Untagged
@@ -3022,6 +3163,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1234110915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1234110909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1255107754
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,6 +3186,7 @@ GameObject:
   - component: {fileID: 1255107755}
   - component: {fileID: 1255107757}
   - component: {fileID: 1255107756}
+  - component: {fileID: 1255107758}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -3093,6 +3248,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1255107754}
+--- !u!114 &1255107758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255107754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f66d9a6f0d54fbe8c8f11ebc4918eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 0}
+  altColorW: {r: 0.92156863, g: 0.92156863, b: 0.92156863, a: 0.827451}
+  OrigColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1300152491
 GameObject:
   m_ObjectHideFlags: 0
@@ -3105,6 +3274,7 @@ GameObject:
   - component: {fileID: 1300152494}
   - component: {fileID: 1300152493}
   - component: {fileID: 1300152492}
+  - component: {fileID: 1300152497}
   m_Layer: 0
   m_Name: Laag7
   m_TagString: Untagged
@@ -3193,6 +3363,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1300152497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300152491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1311499370
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,6 +3388,7 @@ GameObject:
   - component: {fileID: 1311499373}
   - component: {fileID: 1311499372}
   - component: {fileID: 1311499371}
+  - component: {fileID: 1311499376}
   m_Layer: 0
   m_Name: Laag3Links
   m_TagString: Untagged
@@ -3293,6 +3477,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1311499376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311499370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1338783395
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,6 +3500,7 @@ GameObject:
   - component: {fileID: 1338783396}
   - component: {fileID: 1338783398}
   - component: {fileID: 1338783397}
+  - component: {fileID: 1338783399}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -3364,6 +3562,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1338783395}
+--- !u!114 &1338783399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338783395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f66d9a6f0d54fbe8c8f11ebc4918eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 0}
+  altColorW: {r: 0.92156863, g: 0.92156863, b: 0.92156863, a: 0.827451}
+  OrigColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1366131811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3748,6 +3960,7 @@ GameObject:
   - component: {fileID: 1495874538}
   - component: {fileID: 1495874540}
   - component: {fileID: 1495874539}
+  - component: {fileID: 1495874541}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -3809,6 +4022,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1495874537}
+--- !u!114 &1495874541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495874537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f66d9a6f0d54fbe8c8f11ebc4918eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 0}
+  altColorW: {r: 0.92156863, g: 0.92156863, b: 0.92156863, a: 0.827451}
+  OrigColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1543723201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3995,6 +4222,7 @@ GameObject:
   - component: {fileID: 1657363204}
   - component: {fileID: 1657363203}
   - component: {fileID: 1657363202}
+  - component: {fileID: 1657363207}
   m_Layer: 0
   m_Name: Laag4Links
   m_TagString: Untagged
@@ -4083,6 +4311,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657363207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657363201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1808080876
 GameObject:
   m_ObjectHideFlags: 0
@@ -4094,6 +4335,7 @@ GameObject:
   - component: {fileID: 1808080880}
   - component: {fileID: 1808080879}
   - component: {fileID: 1808080878}
+  - component: {fileID: 1808080881}
   m_Layer: 0
   m_Name: Deel3
   m_TagString: Untagged
@@ -4128,7 +4370,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8598f7a26b28844048343ee7ef66c228, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4167,6 +4409,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1808080876}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1808080881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1808080876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1840291174
 GameObject:
   m_ObjectHideFlags: 0
@@ -4244,6 +4499,7 @@ GameObject:
   - component: {fileID: 1883669837}
   - component: {fileID: 1883669836}
   - component: {fileID: 1883669835}
+  - component: {fileID: 1883669840}
   m_Layer: 0
   m_Name: Laag2Rechts
   m_TagString: Untagged
@@ -4332,6 +4588,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1883669840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1883669834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1986417478
 GameObject:
   m_ObjectHideFlags: 0
@@ -4417,6 +4686,7 @@ GameObject:
   - component: {fileID: 2043418330}
   - component: {fileID: 2043418329}
   - component: {fileID: 2043418328}
+  - component: {fileID: 2043418332}
   m_Layer: 0
   m_Name: Deel1
   m_TagString: Untagged
@@ -4490,6 +4760,19 @@ Transform:
   m_Father: {fileID: 374011076}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20}
+--- !u!114 &2043418332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2043418327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2049784446
 GameObject:
   m_ObjectHideFlags: 0
@@ -4502,6 +4785,7 @@ GameObject:
   - component: {fileID: 2049784449}
   - component: {fileID: 2049784448}
   - component: {fileID: 2049784447}
+  - component: {fileID: 2049784452}
   m_Layer: 0
   m_Name: Laag3-4Rechts
   m_TagString: Untagged
@@ -4590,6 +4874,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2049784452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2049784446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2054311544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,6 +4973,7 @@ GameObject:
   - component: {fileID: 2079788728}
   - component: {fileID: 2079788727}
   - component: {fileID: 2079788726}
+  - component: {fileID: 2079788731}
   m_Layer: 0
   m_Name: Laag3Midden
   m_TagString: Untagged
@@ -4764,6 +5062,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2079788731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079788725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70027c6b69c149c3b5e10f1b5944fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 0}
+  altColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2116685011
 GameObject:
   m_ObjectHideFlags: 0

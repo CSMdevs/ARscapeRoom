@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4163973}
   - component: {fileID: 4163974}
+  - component: {fileID: 4163975}
   m_Layer: 5
   m_Name: Toggle
   m_TagString: Untagged
@@ -194,6 +195,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 1
+--- !u!114 &4163975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4163972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e938959090c46da838b78c776dc0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DToggle: {fileID: 4163974}
 --- !u!1 &70078105
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +734,7 @@ GameObject:
   - component: {fileID: 703403047}
   - component: {fileID: 703403049}
   - component: {fileID: 703403048}
+  - component: {fileID: 703403050}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -779,6 +793,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703403046}
+--- !u!114 &703403050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 703403046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f66d9a6f0d54fbe8c8f11ebc4918eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 0}
+  altColorW: {r: 0.92156863, g: 0.92156863, b: 0.92156863, a: 0.827451}
+  OrigColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1086226557
 GameObject:
   m_ObjectHideFlags: 0
