@@ -1,7 +1,7 @@
 # ARscapeRoom
 
 This is our AR-Game made for Herbert Vissers College by [CSM-Devs](csmdevs.github.io).
-It contains 3 puzzles, which you need to solve using AR.
+It contains 4 puzzles, which you need to solve using AR.
 
 ### Getting Started
 
