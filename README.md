@@ -54,7 +54,7 @@ Plug in your device to your computer and click on the "play" icon to install the
 ```
 
 
-## Method 2: Use our build of the game
+### Method 2: Use our build of the game
 (You won't need Unity for this, you only need Xcode)
 ##### Clone the project or download a zip with our builds (HERE)
 Clone the project to a folder you want (first cd into the folder you want)
@@ -78,7 +78,7 @@ Project > General > Fill in the settings
 ```
 Plug in your device to your computer and click on the "play" icon to install the app
 ```
-## Method 3: Install the .ipa with Cydia Impactor
+### Method 3: Install the .ipa with Cydia Impactor
 (You don't need a Mac, Unity or Xcode for this)
 #### Download The ARscape.ipa HERE
 
