@@ -21,39 +21,39 @@ Clone the project to a folder you want (first cd into the folder you want)
 ```
 git clone https://github.com/CSMdevs/EscapeRoom.git
 ```
-#
+
 ##### Open the project with Unity 2017.3.0
-#
+
 ```
 Open Unity > Choose cloned folder
 ```
-#
+
 ##### Build for iOS
-#
+
 ```
 Click build settings > iOS > Build
 ```
-#
+
 ##### Open the builds folder
-#
+
 ```
 Cloned folder > Builds > Xcode > Xcode project
 ```
 
 
 ##### Specify the build settings in Xcode
-#
+
 ```
 Project > General > Fill in the settings
 (Project name, Bundle identifier and Team)
 ```
 ##### Ready for install!
-#
+
 ```
 Plug in your device to your computer and click on the "play" icon to install the app
 ```
-#
-#
+
+
 ## Method 2: Use our build of the game
 (You won't need Unity for this, you only need Xcode)
 ##### Clone the project or download a zip with our builds (HERE)
@@ -61,34 +61,34 @@ Clone the project to a folder you want (first cd into the folder you want)
 ```
 git clone https://github.com/CSMdevs/EscapeRoom.git
 ```
-#
+
 ##### Open the builds folder
-#
+
 ```
 Cloned folder > Builds > Xcode > Xcode project
 ```
 ##### Specify the build settings in Xcode (Optional)
-#
+
 ```
 Project > General > Fill in the settings
 (Project name, Bundle identifier and Team)
 ```
 ##### Ready for install!
-#
+
 ```
 Plug in your device to your computer and click on the "play" icon to install the app
 ```
 ## Method 3: Install the .ipa with Cydia Impactor
 (You don't need a Mac, Unity or Xcode for this)
 #### Download The ARscape.ipa HERE
-#
+
 #### Download Cydia Impactor
 ##### [Mac download](https://cydia.saurik.com/api/latest/1)
 ##### [Windows download](https://cydia.saurik.com/api/latest/2)
 ##### [Linux (32 bits) download](https://cydia.saurik.com/api/latest/4)
 #####  [Linux (64 bits) download](https://cydia.saurik.com/api/latest/5)
-#
-#
+
+
 #### Install the .ipa on your device
 ```
 Open Cydia Impactor > Plug in your iDevice > Drag the .ipa to Cydia Impactor > Fill in your Apple-ID and password
