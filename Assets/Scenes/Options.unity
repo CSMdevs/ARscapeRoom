@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -10}
+  m_AnchoredPosition: {x: 5.15, y: -10}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &451456463
@@ -546,6 +546,7 @@ GameObject:
   - component: {fileID: 667069573}
   - component: {fileID: 667069572}
   - component: {fileID: 667069574}
+  - component: {fileID: 667069575}
   m_Layer: 5
   m_Name: LQ
   m_TagString: Untagged
@@ -662,6 +663,20 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &667069575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 667069570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Lage kwaliteit
+  Engels: Low Quality
 --- !u!1 &690010522
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +834,7 @@ GameObject:
   - component: {fileID: 1086226561}
   - component: {fileID: 1086226560}
   - component: {fileID: 1086226559}
+  - component: {fileID: 1086226563}
   m_Layer: 5
   m_Name: Home
   m_TagString: Untagged
@@ -947,6 +963,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1086226557}
+--- !u!114 &1086226563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086226557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Terug
+  Engels: Home
 --- !u!1 &1448081412
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +987,7 @@ GameObject:
   - component: {fileID: 1448081413}
   - component: {fileID: 1448081415}
   - component: {fileID: 1448081414}
+  - component: {fileID: 1448081416}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -1021,6 +1052,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1448081412}
+--- !u!114 &1448081416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1448081412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Donkere modus
+  Engels: Dark mode
 --- !u!1 &1892854026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,6 +1142,7 @@ GameObject:
   - component: {fileID: 2064360645}
   - component: {fileID: 2064360644}
   - component: {fileID: 2064360646}
+  - component: {fileID: 2064360647}
   m_Layer: 5
   m_Name: HQ
   m_TagString: Untagged
@@ -1213,3 +1259,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &2064360647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2064360642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Hoge kwaliteit
+  Engels: High Quality

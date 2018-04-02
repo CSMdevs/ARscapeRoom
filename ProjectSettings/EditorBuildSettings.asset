@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Share.unity
     guid: 5f3724d3c6f8041f6a5e016b4b2d8ff7
   - enabled: 1
-    path: Assets/Scenes/Brug.unity
+    path: Assets/Scenes/1BrugGame.unity
     guid: cd2bf1d1abe9b2b4ca81c930f665e2d7
   - enabled: 1
-    path: Assets/Scenes/Maze.unity
+    path: Assets/Scenes/3MazeGame.unity
     guid: e5be9a49c1fbc47f4bf4b06684dc4d1e
+  - enabled: 1
+    path: Assets/Scenes/2BlokGame.unity
+    guid: f603d35c600fbbd4b9919386f1d718e7
+  - enabled: 1
+    path: Assets/Scenes/4BkeGame.unity
+    guid: 907030ca732a64b42b43bbc4b79960fc

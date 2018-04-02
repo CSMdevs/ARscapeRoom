@@ -6,9 +6,10 @@ using UnityEngine.UI;
 using UnityEngine.Scripting;
 
 public class IntroLoadLevel : MonoBehaviour {
-    public string PartOne;
-    public string PartTwo;
-    public string PartThree = "Brug";
+    public string PartOne = "1BrugGame";
+    public string PartTwo = "2BlokGame";
+    public string PartThree = "3MazeGame";
+	public string PartFour = "4BkeGame";
     public string home = "Start";
     public Text CompletedOne;
     public Text CompletedTwo;
@@ -55,6 +56,9 @@ public class IntroLoadLevel : MonoBehaviour {
     public void LoadPartThree() {
         SceneManager.LoadScene(PartThree);
     }
+	public void LoadPartFour() {
+		SceneManager.LoadScene(PartFour);
+	}
     public void LoadHome() {
         SceneManager.LoadScene(home);
     }

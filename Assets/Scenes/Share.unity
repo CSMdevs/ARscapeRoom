@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 564183338}
   - component: {fileID: 564183340}
   - component: {fileID: 564183339}
+  - component: {fileID: 564183341}
   m_Layer: 5
   m_Name: Oeps
   m_TagString: Untagged
@@ -250,6 +251,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564183337}
+--- !u!114 &564183341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564183337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Helaas is de "deelfunctie" van deze app (nog) niet beschikbaar, probeer
+    het later weer
+  Engels: Sadly, the sharing part of this game is not yet working, try again later!
 --- !u!1 &640886662
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +522,7 @@ GameObject:
   - component: {fileID: 2037094425}
   - component: {fileID: 2037094424}
   - component: {fileID: 2037094423}
+  - component: {fileID: 2037094427}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -616,7 +633,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: adee0d32b9b59449f9203fc5b1f2a30a, type: 3}
-    m_FontSize: 42
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -634,6 +651,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2037094421}
+--- !u!114 &2037094427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2037094421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Terug
+  Engels: Home
 --- !u!1 &2040064692
 GameObject:
   m_ObjectHideFlags: 0

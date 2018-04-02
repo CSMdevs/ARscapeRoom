@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 139874673}
   - component: {fileID: 139874675}
   - component: {fileID: 139874676}
+  - component: {fileID: 139874677}
   m_Layer: 5
   m_Name: Deel 1
   m_TagString: Untagged
@@ -143,7 +144,7 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 923458958}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -255,6 +256,20 @@ MonoBehaviour:
   tekst: {fileID: 0}
   altColor: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 0.9411765}
   OriginColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &139874677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139874671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Puzzel 1
+  Engels: Puzzle 1
 --- !u!1 &211841748
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,6 +281,7 @@ GameObject:
   - component: {fileID: 211841752}
   - component: {fileID: 211841751}
   - component: {fileID: 211841750}
+  - component: {fileID: 211841753}
   m_Layer: 5
   m_Name: Home
   m_TagString: Untagged
@@ -284,11 +300,11 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 923458958}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 1366.8, y: 142.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211841750
@@ -382,6 +398,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 211841748}
+--- !u!114 &211841753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 211841748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Terug
+  Engels: Back to Home
 --- !u!1 &366951992
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,7 +444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: 250}
+  m_AnchoredPosition: {x: 100, y: 50}
   m_SizeDelta: {x: 1600, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &366951994
@@ -438,10 +468,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 132
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 170
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -603,9 +633,11 @@ RectTransform:
   - {fileID: 1579613082}
   - {fileID: 366951993}
   - {fileID: 2140885316}
+  - {fileID: 1862253041}
   - {fileID: 139874672}
   - {fileID: 1036837132}
   - {fileID: 1697540364}
+  - {fileID: 2029622601}
   - {fileID: 211841749}
   m_Father: {fileID: 1720467253}
   m_RootOrder: 0
@@ -674,6 +706,7 @@ GameObject:
   - component: {fileID: 1036837134}
   - component: {fileID: 1036837133}
   - component: {fileID: 1036837136}
+  - component: {fileID: 1036837137}
   m_Layer: 5
   m_Name: Deel 2
   m_TagString: Untagged
@@ -692,7 +725,7 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 923458958}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -804,6 +837,20 @@ MonoBehaviour:
   tekst: {fileID: 0}
   altColor: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 0.9411765}
   OriginColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1036837137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1036837131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Puzzel 2
+  Engels: Puzzle 2
 --- !u!1 &1210372524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: 450}
+  m_AnchoredPosition: {x: 100, y: 100}
   m_SizeDelta: {x: 1600, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1579613083
@@ -1108,10 +1155,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 132
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 170
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1138,6 +1185,7 @@ GameObject:
   - component: {fileID: 1697540366}
   - component: {fileID: 1697540365}
   - component: {fileID: 1697540368}
+  - component: {fileID: 1697540369}
   m_Layer: 5
   m_Name: Deel 3
   m_TagString: Untagged
@@ -1156,7 +1204,7 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 923458958}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1268,6 +1316,20 @@ MonoBehaviour:
   tekst: {fileID: 0}
   altColor: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 0.9411765}
   OriginColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1697540369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697540363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Puzzel 3
+  Engels: Puzzle 3
 --- !u!1 &1720467249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1439,7 @@ MonoBehaviour:
   PartOne: Deel1
   PartTwo: Deel2
   PartThree: Brug
+  PartFour: Brug
   home: Start
   CompletedOne: {fileID: 1579613083}
   CompletedTwo: {fileID: 366951994}
@@ -1462,6 +1525,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1862253040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1862253041}
+  - component: {fileID: 1862253043}
+  - component: {fileID: 1862253042}
+  m_Layer: 5
+  m_Name: VinkjeDeel4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1862253041
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862253040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 923458958}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 100, y: -50}
+  m_SizeDelta: {x: 1600, y: 1600}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1862253042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862253040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.5661765, b: 0.01561867, a: 0.409}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 170
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u2714"
+--- !u!222 &1862253043
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862253040}
 --- !u!43 &1868628915
 Mesh:
   m_ObjectHideFlags: 0
@@ -1592,6 +1729,165 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1 &2029622600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2029622601}
+  - component: {fileID: 2029622605}
+  - component: {fileID: 2029622604}
+  - component: {fileID: 2029622603}
+  - component: {fileID: 2029622602}
+  - component: {fileID: 2029622606}
+  m_Layer: 5
+  m_Name: Deel 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2029622601
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029622600}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20001534, y: 0.20001534, z: 0.20001534}
+  m_Children: []
+  m_Father: {fileID: 923458958}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: -50}
+  m_SizeDelta: {x: 1600, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2029622602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029622600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2dfef5ac258c43ecbe43a280de9f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tekst: {fileID: 0}
+  altColor: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 0.9411765}
+  OriginColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2029622603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029622600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2029622604}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1720467254}
+        m_MethodName: LoadPartFour
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2029622604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029622600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.48627454, g: 0.48627454, b: 0.48627454, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: adee0d32b9b59449f9203fc5b1f2a30a, type: 3}
+    m_FontSize: 300
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Puzzle 4
+
+'
+--- !u!222 &2029622605
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029622600}
+--- !u!114 &2029622606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029622600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Puzzel 4
+  Engels: Puzzle 4
 --- !u!1 &2140885315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,7 +1920,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: 50}
+  m_AnchoredPosition: {x: 100, y: 0}
   m_SizeDelta: {x: 1600, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140885317
@@ -1648,10 +1944,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 132
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 170
     m_Alignment: 4
     m_AlignByGeometry: 0

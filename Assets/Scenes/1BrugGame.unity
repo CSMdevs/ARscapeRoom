@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964127, b: 0.5748172, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 104765422}
   - component: {fileID: 104765424}
   - component: {fileID: 104765423}
+  - component: {fileID: 104765425}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -187,6 +188,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 104765421}
+--- !u!114 &104765425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 104765421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Verder
+  Engels: Next
 --- !u!1 &133363957
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,6 +212,7 @@ GameObject:
   - component: {fileID: 133363958}
   - component: {fileID: 133363960}
   - component: {fileID: 133363959}
+  - component: {fileID: 133363961}
   m_Layer: 0
   m_Name: Uitleg
   m_TagString: Untagged
@@ -262,6 +278,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 133363957}
+--- !u!114 &133363961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 133363957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Geweldig, je hebt dit level gehaald!
+  Engels: Nice! You finished the puzzle!
 --- !u!1 &136629302
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +677,7 @@ GameObject:
   - component: {fileID: 308963681}
   - component: {fileID: 308963683}
   - component: {fileID: 308963682}
+  - component: {fileID: 308963684}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -711,6 +742,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 308963680}
+--- !u!114 &308963684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 308963680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Uitleg
+  Engels: How to Play
 --- !u!1 &331280904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1310,7 @@ GameObject:
   - component: {fileID: 656784818}
   - component: {fileID: 656784820}
   - component: {fileID: 656784819}
+  - component: {fileID: 656784821}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -1329,6 +1375,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 656784817}
+--- !u!114 &656784821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 656784817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Gehaald!
+  Engels: You did it!
 --- !u!1 &678302333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1615,7 @@ GameObject:
   - component: {fileID: 735723649}
   - component: {fileID: 735723651}
   - component: {fileID: 735723650}
+  - component: {fileID: 735723652}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -1619,6 +1680,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 735723648}
+--- !u!114 &735723652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735723648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Gefaald!
+  Engels: Failed!
 --- !u!1 &737027544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,6 +1907,7 @@ GameObject:
   - component: {fileID: 838439644}
   - component: {fileID: 838439646}
   - component: {fileID: 838439645}
+  - component: {fileID: 838439647}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1896,6 +1972,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 838439643}
+--- !u!114 &838439647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838439643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Verwijder
+  Engels: Destroy
 --- !u!1 &838987699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3747,6 +3837,7 @@ GameObject:
   - component: {fileID: 1465444696}
   - component: {fileID: 1465444698}
   - component: {fileID: 1465444697}
+  - component: {fileID: 1465444699}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3811,6 +3902,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1465444695}
+--- !u!114 &1465444699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1465444695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Selecteer
+  Engels: Select
 --- !u!1 &1479385282
 GameObject:
   m_ObjectHideFlags: 0
@@ -3823,6 +3928,7 @@ GameObject:
   - component: {fileID: 1479385284}
   - component: {fileID: 1479385286}
   - component: {fileID: 1479385287}
+  - component: {fileID: 1479385288}
   m_Layer: 0
   m_Name: Tap to start...
   m_TagString: Untagged
@@ -3893,7 +3999,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479385282}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2d32f8927e1641fdbc8e29006f52c3a, type: 3}
   m_Name: 
@@ -3950,6 +4056,20 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1479385288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1479385282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Klik om te starten
+  Engels: Tap to start
 --- !u!1 &1495874537
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,6 +4166,7 @@ GameObject:
   - component: {fileID: 1543723202}
   - component: {fileID: 1543723204}
   - component: {fileID: 1543723203}
+  - component: {fileID: 1543723205}
   m_Layer: 0
   m_Name: Uitleg
   m_TagString: Untagged
@@ -4113,6 +4234,25 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1543723201}
+--- !u!114 &1543723205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1543723201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: "Je bent ingineur en jij moet proberen de brug weer te maken. Je kan
+    de blokjes selecteren waarvan jij denkt dat ze weg moeten om de brug goed te maken.
+    Zorg ervoor dat de brug recht is en dat hij klopt. Je kan maar \xE9\xE9n keer
+    blokjes verwijderen, let dus goed op welke je selecteerd."
+  Engels: Your a bridge-builder and your assigned to repair this bridge. You can select
+    the blocks which you think need to be removed. the bridge has to be straight.
+    You can only remove blocks once!
 --- !u!1 &1564054280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,6 +5037,7 @@ GameObject:
   - component: {fileID: 2054311545}
   - component: {fileID: 2054311547}
   - component: {fileID: 2054311546}
+  - component: {fileID: 2054311548}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -4961,6 +5102,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2054311544}
+--- !u!114 &2054311548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2054311544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Verder
+  Engels: Next
 --- !u!1 &2079788725
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,6 +5240,7 @@ GameObject:
   - component: {fileID: 2116685012}
   - component: {fileID: 2116685014}
   - component: {fileID: 2116685013}
+  - component: {fileID: 2116685015}
   m_Layer: 0
   m_Name: Uitleg
   m_TagString: Untagged
@@ -5150,3 +5306,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2116685011}
+--- !u!114 &2116685015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116685011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9543362467cc348cf940ab469a6aaad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeText: {fileID: 0}
+  Nederlands: Je hebt helaas de verkeerde blokken weggehaald.  Jammer dat je het verkeerd
+    hebt gedaan, je kan als je op verder drukt het nog een keer proberen.
+  Engels: You removed the wrong blocks!  You can try again
