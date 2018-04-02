@@ -2,6 +2,8 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // https://github.com/AyARL/UnityGUIExamples/blob/master/EventTrigger/Assets/TriggerSetup.cs
 //using UnityEngine.UI;
@@ -20,6 +22,9 @@ public class gameLogic : MonoBehaviour
 	public Transform[] modelPrefabs;
 	public GameObject cylinderPrefab;
 	public GameObject allContent;
+    public Canvas finished;
+    public Canvas failed;
+    public Canvas explain;
 
 
 	int i = 0;
@@ -39,7 +44,22 @@ public class gameLogic : MonoBehaviour
 	void Start ()
 	{
 		OX = new char[9];
+        finished.enabled = false;
+        failed.enabled = false;
+
 	}
+    public void ExplainLeave() {
+        explain.enabled = false;
+    }
+    public void FinishedNext()
+    {
+        SceneManager.LoadScene("Intro");
+        PlayerPrefs.SetInt("Deel4", 1);
+    }
+    public void FailedRetry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -153,17 +173,20 @@ public class gameLogic : MonoBehaviour
 
 				if (winPlayer) {
 					Debug.Log ("PLAYER WINS");
-			//		allContent.SetActive (true);
-			
+                    //		allContent.SetActive (true);
+                    //HIER
+                    finished.enabled = true;
 					// turn victory model/effects
 				}
 				if (winComputer) {
 					Debug.Log ("COMPUTER WINS");
-					// turn victory model/effects
+                    // turn victory model/effects
+                    failed.enabled = true;
 				}
 				if (equal) {
 					Debug.Log ("EQUAL");
-					// turn victory model/effects
+                    // turn victory model/effects
+                    failed.enabled = true;
 				}
 			
 			}

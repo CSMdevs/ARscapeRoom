@@ -108,6 +108,7 @@ public class Movement : MonoBehaviour
                 if (toHit + 1 == 7)
                 {
                     Debug.Log("You finished the game");
+                    PlayerPrefs.SetInt("Deel2", 1);
                     finished.enabled = true;
                     buttons.enabled = false;
                     Destroy(col.gameObject);

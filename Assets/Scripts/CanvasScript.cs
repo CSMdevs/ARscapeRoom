@@ -20,11 +20,14 @@ public class CanvasScript : MonoBehaviour {
 	}
 	public void TapToStart (){
 		SceneManager.LoadScene (SceneToLoad);
+        Debug.Log("Start");
 	}
 	public void TapToOptions (){
 		SceneManager.LoadScene (OptionsToLoad);
+        Debug.Log("Options");
 	}
 	public void TapToShare (){
 		SceneManager.LoadScene (ShareToLoad);
+        Debug.Log("Share");
 	}
 }

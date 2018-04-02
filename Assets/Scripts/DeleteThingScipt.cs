@@ -102,7 +102,7 @@ public class DeleteThingScipt : MonoBehaviour {
             yield return new WaitForSeconds(3);
             Finished.enabled = true;
             Controls.enabled = false;
-            PlayerPrefs.SetInt("Deel3", 1);
+            PlayerPrefs.SetInt("Deel1", 1);
         }
         else
         {
