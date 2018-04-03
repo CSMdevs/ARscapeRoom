@@ -818,8 +818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f7b40e8ce67740758341f171b197ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 
-  test: {fileID: 0}
+  SceneToLoad: Intro
+  test: {fileID: 724225181}
 --- !u!114 &724225179
 MonoBehaviour:
   m_ObjectHideFlags: 0

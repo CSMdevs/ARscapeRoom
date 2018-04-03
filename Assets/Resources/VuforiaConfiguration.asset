@@ -44,13 +44,15 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - stoneDatabase
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - ARimage
+    - stoneDatabase
     dataSetsToActivate:
-    - stoneDatabase
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - ARimage
+    - stoneDatabase
   videoBackground:
     clippingMode: 0
     numDivisions: 2
